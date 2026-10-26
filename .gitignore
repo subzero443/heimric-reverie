@@ -1,0 +1,13 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.sites-runtime/
+.npm-cache/
+# Preserve privacy for any old local records and backups.
+.clinic-data/
+.clinic-backups/
+.runtime-tests/
+.env
+.env.*
+!.env.example

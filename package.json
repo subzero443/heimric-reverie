@@ -1,0 +1,29 @@
+{
+  "name": "heimric-reverie",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "start": "vite preview --host 0.0.0.0",
+    "test:report": "node --test tests/patient-report-selection.test.mjs",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "vite": "^7.1.7"
+  },
+  "engines": {
+    "node": ">=24.19.0 <25"
+  }
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" data-theme="gold">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#221e1f" />
+    <meta
+      name="description"
+      content="Heimric Reverie Physioyard offers home-based physiotherapy in Ibadan and Lagos, plus online telerehabilitation. Helping you move better, recover smarter."
+    />
+    <title>Heimric Reverie Physioyard | Move better. Recover smarter.</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" as="image" href="/images/heimric-reverie-logo.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="/images/entrance-physiotherapy-pattern.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      try {
+        const themeColors = {
+          gold: '#221e1f',
+          blue: '#f8fbff',
+          sage: '#f7fbf8',
+          midnight: '#0d192b',
+        };
+        const savedTheme = localStorage.getItem('heimric-theme-v2');
+        if (Object.hasOwn(themeColors, savedTheme)) {
+          document.documentElement.dataset.theme = savedTheme;
+          document.querySelector('meta[name="theme-color"]').content =
+            themeColors[savedTheme];
+        }
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript
+      >This website needs JavaScript. Contact Heimric Reverie Physioyard on
+      <a href="tel:+2349033764645">09033764645</a> to request an
+      appointment.</noscript
+    >
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
