@@ -1,5 +1,6 @@
 # Heimric Reverie Physioyard
-Live Link: https://heimric-reverie.pages.dev/
+# Live Link: https://heimric-reverie.pages.dev/
+
 A responsive physiotherapy website built with React, Vite, and Tailwind CSS. Includes eleven service cards, FAQs, ten illustrated exercise guides and a browser-only patient portal with complaint forms, downloadable PDF health reports, an exercise timer and daily progress tracking. No account, API, database or application server is required. WhatsApp handles appointment requests.
 
 Home-Based Physiotherapy is the priority service: it appears first in a featured card, leads the homepage introduction and main booking link, and is the default appointment choice. Home visits are available by appointment in Ibadan and Lagos. Telerehabilitation has a separate booking path for patients requesting online care, with city/country, preferred time and time zone included in the WhatsApp draft. All requests are confirmed by the clinic.
