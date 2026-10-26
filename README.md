@@ -1,5 +1,21 @@
 # Heimric Reverie Physioyard
 # Live Link: https://heimric-reverie.pages.dev/
+---
+# Screenshots
+<img src="Screenshot 2026-10-24 170428.png">
+<img src="Screenshot 2026-10-24 122801.png">
+<img src="Screenshot 2026-10-24 133743.png">
+<img src="Screenshot 2026-10-24 132200.png">
+<img src="Screenshot 2026-10-25 191716.png">
+<img src="Screenshot 2026-10-24 155715.png">
+<img src="Screenshot 2026-10-24 153912.png">
+<img src="Screenshot 2026-10-24 153807.png">
+<img src="Screenshot 2026-10-24 124414.png">
+<img src="Screenshot 2026-10-24 143945.png">
+<img src="Screenshot 2026-10-24 154319.png">
+<img src="Screenshot 2026-10-25 192127.png">
+<img src="Screenshot 2026-10-26 093429.png">
+<img src="Screenshot 2026-10-26 093600.png">
 
 A responsive physiotherapy website built with React, Vite, and Tailwind CSS. Includes eleven service cards, FAQs, ten illustrated exercise guides and a browser-only patient portal with complaint forms, downloadable PDF health reports, an exercise timer and daily progress tracking. No account, API, database or application server is required. WhatsApp handles appointment requests.
 
